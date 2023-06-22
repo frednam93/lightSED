@@ -2,7 +2,7 @@
 
 Official implementation of <br>
  - **Frequency & Channel Attention for Computationally Efficient Sound Event Detection** (Submitted to DCASE 2023 workshop) <br>
-by Hyeonuk Nam, Seong-Hu Kim, Doekki Min, Yong-Hwa Park <br>[![arXiv](https://img.shields.io/badge/arXiv-2306.11277-brightgreen)]([https://arxiv.org/abs/2306.11277](https://arxiv.org/abs/2306.11277))<br>
+by Hyeonuk Nam, Seong-Hu Kim, Doekki Min, Yong-Hwa Park <br>[![arXiv](https://img.shields.io/badge/arXiv-2306.11277-brightgreen)](https://arxiv.org/abs/2306.11277)<br>
 
 
 ## Requirements
