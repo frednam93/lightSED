@@ -54,12 +54,12 @@ If this repository helped your works, please cite papers below! 3rd paper is abo
 }
 
 @inproceedings{nam22_interspeech,
-  author={Hyeonuk Nam and Seong-Hu Kim and Byeong-Yun Ko and Yong-Hwa Park},
-  title={{Frequency Dynamic Convolution: Frequency-Adaptive Pattern Recognition for Sound Event Detection}},
-  year=2022,
-  booktitle={Proc. Interspeech 2022},
-  pages={2763--2767},
-  doi={10.21437/Interspeech.2022-10127}
+      author={Hyeonuk Nam and Seong-Hu Kim and Byeong-Yun Ko and Yong-Hwa Park},
+      title={{Frequency Dynamic Convolution: Frequency-Adaptive Pattern Recognition for Sound Event Detection}},
+      year=2022,
+      booktitle={Proc. Interspeech 2022},
+      pages={2763--2767},
+      doi={10.21437/Interspeech.2022-10127}
 }
 
 @INPROCEEDINGS{nam2021filteraugment,
