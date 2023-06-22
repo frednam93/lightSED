@@ -1,0 +1,223 @@
+==================================================start!!!!==================================================
+save directory : exps/new_exp_gpu=1_iter=2
+date & time of start is : 2023-06-01 02:20:55
+torch version is: 1.8.0+cu111
+number of GPUs: 2
+device: cuda:1
+model used for this training is: DYCRNN
+Total Trainable Params: 11.061 M
+   training starts!
+[Epc 1] tt: 0.850, cl_st: 0.532, cl_wk: 0.636, cn_st: 0.004, cn_wk: 0.000, st_vl: 0.239, t_vl: 0.305, t: 110s
+[Epc 2] tt: 0.564, cl_st: 0.327, cl_wk: 0.471, cn_st: 0.027, cn_wk: 0.000, st_vl: 0.002, t_vl: 0.202, t: 114s
+[Epc 3] tt: 0.440, cl_st: 0.241, cl_wk: 0.394, cn_st: 0.047, cn_wk: 0.000, st_vl: 0.001, t_vl: 0.189, t: 111s
+[Epc 4] tt: 0.426, cl_st: 0.232, cl_wk: 0.386, cn_st: 0.030, cn_wk: 0.000, st_vl: 0.001, t_vl: 0.136, t: 110s
+[Epc 5] tt: 0.419, cl_st: 0.228, cl_wk: 0.379, cn_st: 0.019, cn_wk: 0.000, st_vl: 0.027, t_vl: 0.130, t: 110s
+[Epc 6] tt: 0.411, cl_st: 0.225, cl_wk: 0.370, cn_st: 0.015, cn_wk: 0.000, st_vl: 0.048, t_vl: 0.102, t: 110s
+[Epc 7] tt: 0.405, cl_st: 0.220, cl_wk: 0.367, cn_st: 0.013, cn_wk: 0.000, st_vl: 0.083, t_vl: 0.091, t: 111s
+[Epc 8] tt: 0.392, cl_st: 0.213, cl_wk: 0.358, cn_st: 0.012, cn_wk: 0.000, st_vl: 0.175, t_vl: 0.074, t: 110s
+[Epc 9] tt: 0.381, cl_st: 0.204, cl_wk: 0.351, cn_st: 0.012, cn_wk: 0.000, st_vl: 0.325, t_vl: 0.091, t: 110s
+[Epc 10] tt: 0.380, cl_st: 0.205, cl_wk: 0.346, cn_st: 0.012, cn_wk: 0.000, st_vl: 0.266, t_vl: 0.093, t: 110s
+[Epc 11] tt: 0.370, cl_st: 0.202, cl_wk: 0.331, cn_st: 0.012, cn_wk: 0.000, st_vl: 0.370, t_vl: 0.074, t: 110s
+[Epc 12] tt: 0.363, cl_st: 0.199, cl_wk: 0.323, cn_st: 0.013, cn_wk: 0.000, st_vl: 0.334, t_vl: 0.117, t: 110s
+[Epc 13] tt: 0.353, cl_st: 0.196, cl_wk: 0.308, cn_st: 0.013, cn_wk: 0.000, st_vl: 0.418, t_vl: 0.168, t: 110s
+[Epc 14] tt: 0.338, cl_st: 0.188, cl_wk: 0.292, cn_st: 0.013, cn_wk: 0.000, st_vl: 0.396, t_vl: 0.218, t: 110s
+[Epc 15] tt: 0.333, cl_st: 0.189, cl_wk: 0.280, cn_st: 0.014, cn_wk: 0.000, st_vl: 0.529, t_vl: 0.233, t: 110s
+[Epc 16] tt: 0.322, cl_st: 0.182, cl_wk: 0.271, cn_st: 0.014, cn_wk: 0.000, st_vl: 0.636, t_vl: 0.242, t: 110s
+[Epc 17] tt: 0.316, cl_st: 0.180, cl_wk: 0.261, cn_st: 0.013, cn_wk: 0.000, st_vl: 0.642, t_vl: 0.294, t: 110s
+[Epc 18] tt: 0.303, cl_st: 0.172, cl_wk: 0.249, cn_st: 0.013, cn_wk: 0.000, st_vl: 0.635, t_vl: 0.411, t: 110s
+[Epc 19] tt: 0.307, cl_st: 0.175, cl_wk: 0.251, cn_st: 0.012, cn_wk: 0.000, st_vl: 0.615, t_vl: 0.392, t: 110s
+[Epc 20] tt: 0.300, cl_st: 0.170, cl_wk: 0.245, cn_st: 0.011, cn_wk: 0.000, st_vl: 0.664, t_vl: 0.395, t: 110s
+[Epc 21] tt: 0.293, cl_st: 0.167, cl_wk: 0.235, cn_st: 0.011, cn_wk: 0.000, st_vl: 0.744, t_vl: 0.400, t: 110s
+[Epc 22] tt: 0.293, cl_st: 0.166, cl_wk: 0.237, cn_st: 0.011, cn_wk: 0.000, st_vl: 0.782, t_vl: 0.461, t: 110s
+[Epc 23] tt: 0.281, cl_st: 0.159, cl_wk: 0.226, cn_st: 0.010, cn_wk: 0.000, st_vl: 0.782, t_vl: 0.492, t: 110s
+[Epc 24] tt: 0.276, cl_st: 0.159, cl_wk: 0.214, cn_st: 0.010, cn_wk: 0.000, st_vl: 0.757, t_vl: 0.594, t: 110s
+[Epc 25] tt: 0.278, cl_st: 0.161, cl_wk: 0.213, cn_st: 0.009, cn_wk: 0.000, st_vl: 0.864, t_vl: 0.636, t: 110s
+[Epc 26] tt: 0.272, cl_st: 0.155, cl_wk: 0.211, cn_st: 0.009, cn_wk: 0.000, st_vl: 0.985, t_vl: 0.706, t: 110s
+[Epc 27] tt: 0.269, cl_st: 0.154, cl_wk: 0.206, cn_st: 0.009, cn_wk: 0.000, st_vl: 0.922, t_vl: 0.699, t: 110s
+[Epc 28] tt: 0.264, cl_st: 0.149, cl_wk: 0.206, cn_st: 0.008, cn_wk: 0.000, st_vl: 1.033, t_vl: 0.765, t: 110s
+[Epc 29] tt: 0.267, cl_st: 0.151, cl_wk: 0.205, cn_st: 0.008, cn_wk: 0.000, st_vl: 0.932, t_vl: 0.811, t: 110s
+[Epc 30] tt: 0.270, cl_st: 0.156, cl_wk: 0.201, cn_st: 0.008, cn_wk: 0.000, st_vl: 1.020, t_vl: 0.818, t: 110s
+[Epc 31] tt: 0.258, cl_st: 0.147, cl_wk: 0.194, cn_st: 0.008, cn_wk: 0.000, st_vl: 0.996, t_vl: 0.883, t: 110s
+[Epc 32] tt: 0.252, cl_st: 0.142, cl_wk: 0.189, cn_st: 0.008, cn_wk: 0.000, st_vl: 1.082, t_vl: 0.936, t: 110s
+[Epc 33] tt: 0.252, cl_st: 0.142, cl_wk: 0.187, cn_st: 0.008, cn_wk: 0.000, st_vl: 0.954, t_vl: 0.921, t: 111s
+[Epc 34] tt: 0.252, cl_st: 0.140, cl_wk: 0.189, cn_st: 0.007, cn_wk: 0.000, st_vl: 0.945, t_vl: 0.967, t: 111s
+[Epc 35] tt: 0.259, cl_st: 0.147, cl_wk: 0.187, cn_st: 0.007, cn_wk: 0.000, st_vl: 0.984, t_vl: 0.973, t: 110s
+[Epc 36] tt: 0.251, cl_st: 0.142, cl_wk: 0.182, cn_st: 0.007, cn_wk: 0.000, st_vl: 1.043, t_vl: 0.980, t: 110s
+[Epc 37] tt: 0.247, cl_st: 0.140, cl_wk: 0.175, cn_st: 0.007, cn_wk: 0.000, st_vl: 1.012, t_vl: 1.081, t: 110s
+[Epc 38] tt: 0.253, cl_st: 0.143, cl_wk: 0.179, cn_st: 0.007, cn_wk: 0.000, st_vl: 1.056, t_vl: 1.112, t: 110s
+[Epc 39] tt: 0.235, cl_st: 0.138, cl_wk: 0.152, cn_st: 0.007, cn_wk: 0.000, st_vl: 1.126, t_vl: 1.074, t: 110s
+[Epc 40] tt: 0.256, cl_st: 0.139, cl_wk: 0.186, cn_st: 0.007, cn_wk: 0.000, st_vl: 1.104, t_vl: 1.119, t: 110s
+[Epc 41] tt: 0.241, cl_st: 0.134, cl_wk: 0.170, cn_st: 0.007, cn_wk: 0.000, st_vl: 1.106, t_vl: 1.133, t: 110s
+[Epc 42] tt: 0.233, cl_st: 0.129, cl_wk: 0.162, cn_st: 0.006, cn_wk: 0.000, st_vl: 1.155, t_vl: 1.149, t: 110s
+[Epc 43] tt: 0.239, cl_st: 0.135, cl_wk: 0.161, cn_st: 0.006, cn_wk: 0.000, st_vl: 1.276, t_vl: 1.207, t: 110s
+[Epc 44] tt: 0.231, cl_st: 0.126, cl_wk: 0.162, cn_st: 0.006, cn_wk: 0.000, st_vl: 1.073, t_vl: 1.159, t: 110s
+[Epc 45] tt: 0.237, cl_st: 0.128, cl_wk: 0.165, cn_st: 0.007, cn_wk: 0.000, st_vl: 1.157, t_vl: 1.178, t: 110s
+[Epc 46] tt: 0.241, cl_st: 0.129, cl_wk: 0.173, cn_st: 0.006, cn_wk: 0.000, st_vl: 1.135, t_vl: 1.209, t: 110s
+[Epc 47] tt: 0.230, cl_st: 0.124, cl_wk: 0.161, cn_st: 0.006, cn_wk: 0.000, st_vl: 1.116, t_vl: 1.176, t: 110s
+[Epc 48] tt: 0.216, cl_st: 0.122, cl_wk: 0.137, cn_st: 0.006, cn_wk: 0.000, st_vl: 1.140, t_vl: 1.204, t: 110s
+[Epc 49] tt: 0.227, cl_st: 0.124, cl_wk: 0.157, cn_st: 0.006, cn_wk: 0.000, st_vl: 1.198, t_vl: 1.251, t: 111s
+[Epc 50] tt: 0.222, cl_st: 0.124, cl_wk: 0.144, cn_st: 0.006, cn_wk: 0.000, st_vl: 1.168, t_vl: 1.208, t: 110s
+[Epc 51] tt: 0.229, cl_st: 0.132, cl_wk: 0.146, cn_st: 0.006, cn_wk: 0.000, st_vl: 1.186, t_vl: 1.264, t: 110s
+[Epc 52] tt: 0.232, cl_st: 0.125, cl_wk: 0.162, cn_st: 0.006, cn_wk: 0.000, st_vl: 1.119, t_vl: 1.191, t: 110s
+[Epc 53] tt: 0.220, cl_st: 0.121, cl_wk: 0.150, cn_st: 0.006, cn_wk: 0.000, st_vl: 1.190, t_vl: 1.278, t: 110s
+[Epc 54] tt: 0.216, cl_st: 0.122, cl_wk: 0.135, cn_st: 0.006, cn_wk: 0.000, st_vl: 1.247, t_vl: 1.283, t: 110s
+[Epc 55] tt: 0.215, cl_st: 0.119, cl_wk: 0.140, cn_st: 0.006, cn_wk: 0.000, st_vl: 1.266, t_vl: 1.253, t: 110s
+[Epc 56] tt: 0.216, cl_st: 0.120, cl_wk: 0.140, cn_st: 0.006, cn_wk: 0.000, st_vl: 1.191, t_vl: 1.250, t: 110s
+[Epc 57] tt: 0.199, cl_st: 0.111, cl_wk: 0.130, cn_st: 0.006, cn_wk: 0.000, st_vl: 1.316, t_vl: 1.289, t: 110s
+[Epc 58] tt: 0.214, cl_st: 0.121, cl_wk: 0.135, cn_st: 0.006, cn_wk: 0.000, st_vl: 1.253, t_vl: 1.233, t: 110s
+[Epc 59] tt: 0.208, cl_st: 0.116, cl_wk: 0.134, cn_st: 0.006, cn_wk: 0.000, st_vl: 1.239, t_vl: 1.271, t: 110s
+[Epc 60] tt: 0.209, cl_st: 0.114, cl_wk: 0.144, cn_st: 0.006, cn_wk: 0.000, st_vl: 1.211, t_vl: 1.293, t: 110s
+[Epc 61] tt: 0.206, cl_st: 0.117, cl_wk: 0.127, cn_st: 0.006, cn_wk: 0.000, st_vl: 1.236, t_vl: 1.275, t: 110s
+[Epc 62] tt: 0.202, cl_st: 0.113, cl_wk: 0.130, cn_st: 0.006, cn_wk: 0.000, st_vl: 1.284, t_vl: 1.304, t: 110s
+[Epc 63] tt: 0.196, cl_st: 0.106, cl_wk: 0.133, cn_st: 0.006, cn_wk: 0.000, st_vl: 1.260, t_vl: 1.319, t: 110s
+[Epc 64] tt: 0.193, cl_st: 0.108, cl_wk: 0.121, cn_st: 0.006, cn_wk: 0.000, st_vl: 1.289, t_vl: 1.289, t: 110s
+[Epc 65] tt: 0.191, cl_st: 0.112, cl_wk: 0.113, cn_st: 0.006, cn_wk: 0.000, st_vl: 1.255, t_vl: 1.334, t: 111s
+[Epc 66] tt: 0.200, cl_st: 0.110, cl_wk: 0.130, cn_st: 0.006, cn_wk: 0.000, st_vl: 1.305, t_vl: 1.311, t: 110s
+[Epc 67] tt: 0.204, cl_st: 0.113, cl_wk: 0.132, cn_st: 0.006, cn_wk: 0.000, st_vl: 1.257, t_vl: 1.312, t: 111s
+[Epc 68] tt: 0.189, cl_st: 0.103, cl_wk: 0.123, cn_st: 0.006, cn_wk: 0.000, st_vl: 1.373, t_vl: 1.362, t: 110s
+[Epc 69] tt: 0.195, cl_st: 0.108, cl_wk: 0.125, cn_st: 0.006, cn_wk: 0.000, st_vl: 1.327, t_vl: 1.323, t: 111s
+[Epc 70] tt: 0.198, cl_st: 0.113, cl_wk: 0.124, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.312, t_vl: 1.346, t: 110s
+[Epc 71] tt: 0.192, cl_st: 0.106, cl_wk: 0.127, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.309, t_vl: 1.353, t: 110s
+[Epc 72] tt: 0.189, cl_st: 0.107, cl_wk: 0.117, cn_st: 0.006, cn_wk: 0.000, st_vl: 1.313, t_vl: 1.301, t: 110s
+[Epc 73] tt: 0.187, cl_st: 0.104, cl_wk: 0.117, cn_st: 0.006, cn_wk: 0.000, st_vl: 1.303, t_vl: 1.346, t: 110s
+[Epc 74] tt: 0.184, cl_st: 0.103, cl_wk: 0.117, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.385, t_vl: 1.379, t: 111s
+[Epc 75] tt: 0.183, cl_st: 0.104, cl_wk: 0.109, cn_st: 0.006, cn_wk: 0.000, st_vl: 1.338, t_vl: 1.380, t: 111s
+[Epc 76] tt: 0.196, cl_st: 0.109, cl_wk: 0.131, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.306, t_vl: 1.340, t: 110s
+[Epc 77] tt: 0.192, cl_st: 0.108, cl_wk: 0.122, cn_st: 0.006, cn_wk: 0.000, st_vl: 1.251, t_vl: 1.345, t: 110s
+[Epc 78] tt: 0.180, cl_st: 0.102, cl_wk: 0.110, cn_st: 0.006, cn_wk: 0.000, st_vl: 1.313, t_vl: 1.346, t: 110s
+[Epc 79] tt: 0.189, cl_st: 0.106, cl_wk: 0.117, cn_st: 0.006, cn_wk: 0.000, st_vl: 1.341, t_vl: 1.349, t: 110s
+[Epc 80] tt: 0.181, cl_st: 0.105, cl_wk: 0.107, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.307, t_vl: 1.383, t: 110s
+[Epc 81] tt: 0.170, cl_st: 0.095, cl_wk: 0.104, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.326, t_vl: 1.389, t: 110s
+[Epc 82] tt: 0.175, cl_st: 0.099, cl_wk: 0.105, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.336, t_vl: 1.400, t: 110s
+[Epc 83] tt: 0.177, cl_st: 0.092, cl_wk: 0.123, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.359, t_vl: 1.364, t: 110s
+[Epc 84] tt: 0.188, cl_st: 0.103, cl_wk: 0.125, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.340, t_vl: 1.376, t: 110s
+[Epc 85] tt: 0.177, cl_st: 0.100, cl_wk: 0.108, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.341, t_vl: 1.371, t: 110s
+[Epc 86] tt: 0.185, cl_st: 0.108, cl_wk: 0.108, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.359, t_vl: 1.406, t: 110s
+[Epc 87] tt: 0.197, cl_st: 0.110, cl_wk: 0.125, cn_st: 0.006, cn_wk: 0.000, st_vl: 1.308, t_vl: 1.414, t: 110s
+[Epc 88] tt: 0.169, cl_st: 0.097, cl_wk: 0.098, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.381, t_vl: 1.411, t: 110s
+[Epc 89] tt: 0.181, cl_st: 0.102, cl_wk: 0.112, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.376, t_vl: 1.415, t: 110s
+[Epc 90] tt: 0.177, cl_st: 0.105, cl_wk: 0.099, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.357, t_vl: 1.409, t: 110s
+[Epc 91] tt: 0.175, cl_st: 0.101, cl_wk: 0.101, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.341, t_vl: 1.424, t: 110s
+[Epc 92] tt: 0.169, cl_st: 0.095, cl_wk: 0.104, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.379, t_vl: 1.427, t: 110s
+[Epc 93] tt: 0.173, cl_st: 0.097, cl_wk: 0.109, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.342, t_vl: 1.345, t: 110s
+[Epc 94] tt: 0.176, cl_st: 0.097, cl_wk: 0.112, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.329, t_vl: 1.392, t: 110s
+[Epc 95] tt: 0.176, cl_st: 0.099, cl_wk: 0.108, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.356, t_vl: 1.362, t: 110s
+[Epc 96] tt: 0.161, cl_st: 0.089, cl_wk: 0.097, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.392, t_vl: 1.412, t: 110s
+[Epc 97] tt: 0.174, cl_st: 0.101, cl_wk: 0.103, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.432, t_vl: 1.409, t: 110s
+[Epc 98] tt: 0.152, cl_st: 0.092, cl_wk: 0.080, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.357, t_vl: 1.402, t: 110s
+[Epc 99] tt: 0.175, cl_st: 0.096, cl_wk: 0.113, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.355, t_vl: 1.409, t: 110s
+[Epc 100] tt: 0.173, cl_st: 0.097, cl_wk: 0.103, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.369, t_vl: 1.397, t: 110s
+[Epc 101] tt: 0.173, cl_st: 0.099, cl_wk: 0.104, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.337, t_vl: 1.366, t: 110s
+[Epc 102] tt: 0.164, cl_st: 0.097, cl_wk: 0.091, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.320, t_vl: 1.385, t: 110s
+[Epc 103] tt: 0.178, cl_st: 0.096, cl_wk: 0.116, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.346, t_vl: 1.401, t: 110s
+[Epc 104] tt: 0.168, cl_st: 0.093, cl_wk: 0.104, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.373, t_vl: 1.371, t: 110s
+[Epc 105] tt: 0.174, cl_st: 0.100, cl_wk: 0.102, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.292, t_vl: 1.400, t: 110s
+[Epc 106] tt: 0.165, cl_st: 0.095, cl_wk: 0.094, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.334, t_vl: 1.377, t: 110s
+[Epc 107] tt: 0.170, cl_st: 0.098, cl_wk: 0.098, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.390, t_vl: 1.438, t: 110s
+     best teacher model updated at epoch 107!
+[Epc 108] tt: 0.161, cl_st: 0.091, cl_wk: 0.098, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.387, t_vl: 1.414, t: 110s
+[Epc 109] tt: 0.165, cl_st: 0.092, cl_wk: 0.104, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.375, t_vl: 1.379, t: 110s
+[Epc 110] tt: 0.175, cl_st: 0.097, cl_wk: 0.111, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.360, t_vl: 1.388, t: 110s
+[Epc 111] tt: 0.167, cl_st: 0.098, cl_wk: 0.092, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.343, t_vl: 1.418, t: 110s
+[Epc 112] tt: 0.169, cl_st: 0.097, cl_wk: 0.098, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.377, t_vl: 1.404, t: 109s
+[Epc 113] tt: 0.163, cl_st: 0.089, cl_wk: 0.103, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.345, t_vl: 1.385, t: 110s
+[Epc 114] tt: 0.155, cl_st: 0.093, cl_wk: 0.082, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.361, t_vl: 1.443, t: 110s
+     best teacher model updated at epoch 114!
+[Epc 115] tt: 0.164, cl_st: 0.095, cl_wk: 0.095, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.369, t_vl: 1.409, t: 110s
+[Epc 116] tt: 0.151, cl_st: 0.089, cl_wk: 0.082, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.344, t_vl: 1.399, t: 110s
+[Epc 117] tt: 0.166, cl_st: 0.091, cl_wk: 0.104, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.333, t_vl: 1.407, t: 109s
+[Epc 118] tt: 0.163, cl_st: 0.092, cl_wk: 0.097, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.377, t_vl: 1.435, t: 110s
+[Epc 119] tt: 0.163, cl_st: 0.097, cl_wk: 0.092, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.375, t_vl: 1.378, t: 110s
+[Epc 120] tt: 0.164, cl_st: 0.091, cl_wk: 0.100, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.332, t_vl: 1.404, t: 110s
+[Epc 121] tt: 0.166, cl_st: 0.091, cl_wk: 0.102, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.405, t_vl: 1.430, t: 110s
+[Epc 122] tt: 0.160, cl_st: 0.095, cl_wk: 0.086, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.270, t_vl: 1.381, t: 110s
+[Epc 123] tt: 0.163, cl_st: 0.097, cl_wk: 0.089, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.333, t_vl: 1.404, t: 109s
+[Epc 124] tt: 0.165, cl_st: 0.096, cl_wk: 0.094, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.361, t_vl: 1.392, t: 110s
+[Epc 125] tt: 0.158, cl_st: 0.090, cl_wk: 0.094, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.319, t_vl: 1.383, t: 110s
+[Epc 126] tt: 0.164, cl_st: 0.091, cl_wk: 0.101, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.396, t_vl: 1.373, t: 110s
+[Epc 127] tt: 0.166, cl_st: 0.093, cl_wk: 0.102, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.328, t_vl: 1.385, t: 110s
+[Epc 128] tt: 0.156, cl_st: 0.086, cl_wk: 0.095, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.441, t_vl: 1.404, t: 110s
+     best student model updated at epoch 128!
+[Epc 129] tt: 0.162, cl_st: 0.092, cl_wk: 0.095, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.348, t_vl: 1.408, t: 110s
+[Epc 130] tt: 0.153, cl_st: 0.089, cl_wk: 0.088, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.367, t_vl: 1.434, t: 110s
+[Epc 131] tt: 0.165, cl_st: 0.087, cl_wk: 0.109, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.347, t_vl: 1.374, t: 110s
+[Epc 132] tt: 0.155, cl_st: 0.091, cl_wk: 0.086, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.346, t_vl: 1.404, t: 110s
+[Epc 133] tt: 0.159, cl_st: 0.094, cl_wk: 0.084, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.380, t_vl: 1.413, t: 110s
+[Epc 134] tt: 0.161, cl_st: 0.093, cl_wk: 0.090, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.354, t_vl: 1.438, t: 110s
+[Epc 135] tt: 0.155, cl_st: 0.089, cl_wk: 0.086, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.409, t_vl: 1.413, t: 109s
+[Epc 136] tt: 0.168, cl_st: 0.093, cl_wk: 0.107, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.424, t_vl: 1.443, t: 110s
+     best teacher model updated at epoch 136!
+[Epc 137] tt: 0.153, cl_st: 0.091, cl_wk: 0.083, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.403, t_vl: 1.414, t: 110s
+[Epc 138] tt: 0.164, cl_st: 0.094, cl_wk: 0.094, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.412, t_vl: 1.417, t: 110s
+[Epc 139] tt: 0.159, cl_st: 0.088, cl_wk: 0.101, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.379, t_vl: 1.407, t: 110s
+[Epc 140] tt: 0.157, cl_st: 0.095, cl_wk: 0.084, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.418, t_vl: 1.429, t: 110s
+[Epc 141] tt: 0.166, cl_st: 0.096, cl_wk: 0.098, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.338, t_vl: 1.417, t: 110s
+[Epc 142] tt: 0.149, cl_st: 0.088, cl_wk: 0.080, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.419, t_vl: 1.418, t: 110s
+[Epc 143] tt: 0.171, cl_st: 0.096, cl_wk: 0.102, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.360, t_vl: 1.400, t: 110s
+[Epc 144] tt: 0.152, cl_st: 0.083, cl_wk: 0.095, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.386, t_vl: 1.420, t: 110s
+[Epc 145] tt: 0.151, cl_st: 0.087, cl_wk: 0.088, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.410, t_vl: 1.457, t: 110s
+     best teacher model updated at epoch 145!
+[Epc 146] tt: 0.168, cl_st: 0.096, cl_wk: 0.100, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.391, t_vl: 1.435, t: 110s
+[Epc 147] tt: 0.156, cl_st: 0.090, cl_wk: 0.093, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.425, t_vl: 1.416, t: 110s
+[Epc 148] tt: 0.156, cl_st: 0.093, cl_wk: 0.085, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.419, t_vl: 1.422, t: 110s
+[Epc 149] tt: 0.148, cl_st: 0.089, cl_wk: 0.079, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.371, t_vl: 1.438, t: 110s
+[Epc 150] tt: 0.145, cl_st: 0.087, cl_wk: 0.074, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.404, t_vl: 1.455, t: 110s
+[Epc 151] tt: 0.152, cl_st: 0.085, cl_wk: 0.094, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.397, t_vl: 1.424, t: 110s
+[Epc 152] tt: 0.162, cl_st: 0.094, cl_wk: 0.093, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.423, t_vl: 1.453, t: 110s
+[Epc 153] tt: 0.145, cl_st: 0.085, cl_wk: 0.078, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.411, t_vl: 1.444, t: 110s
+[Epc 154] tt: 0.160, cl_st: 0.094, cl_wk: 0.091, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.409, t_vl: 1.449, t: 110s
+[Epc 155] tt: 0.158, cl_st: 0.087, cl_wk: 0.098, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.407, t_vl: 1.422, t: 110s
+[Epc 156] tt: 0.166, cl_st: 0.093, cl_wk: 0.101, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.409, t_vl: 1.454, t: 110s
+[Epc 157] tt: 0.152, cl_st: 0.092, cl_wk: 0.081, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.419, t_vl: 1.462, t: 110s
+     best teacher model updated at epoch 157!
+[Epc 158] tt: 0.152, cl_st: 0.085, cl_wk: 0.092, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.365, t_vl: 1.433, t: 110s
+[Epc 159] tt: 0.165, cl_st: 0.094, cl_wk: 0.097, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.415, t_vl: 1.457, t: 110s
+[Epc 160] tt: 0.156, cl_st: 0.089, cl_wk: 0.092, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.377, t_vl: 1.441, t: 110s
+[Epc 161] tt: 0.152, cl_st: 0.086, cl_wk: 0.091, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.399, t_vl: 1.464, t: 110s
+     best teacher model updated at epoch 161!
+[Epc 162] tt: 0.160, cl_st: 0.092, cl_wk: 0.094, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.390, t_vl: 1.410, t: 110s
+[Epc 163] tt: 0.167, cl_st: 0.092, cl_wk: 0.108, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.384, t_vl: 1.432, t: 109s
+[Epc 164] tt: 0.151, cl_st: 0.084, cl_wk: 0.091, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.409, t_vl: 1.432, t: 110s
+[Epc 165] tt: 0.145, cl_st: 0.086, cl_wk: 0.080, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.425, t_vl: 1.441, t: 110s
+[Epc 166] tt: 0.148, cl_st: 0.085, cl_wk: 0.082, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.375, t_vl: 1.402, t: 110s
+[Epc 167] tt: 0.146, cl_st: 0.085, cl_wk: 0.082, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.406, t_vl: 1.433, t: 110s
+[Epc 168] tt: 0.151, cl_st: 0.083, cl_wk: 0.094, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.409, t_vl: 1.431, t: 110s
+[Epc 169] tt: 0.144, cl_st: 0.082, cl_wk: 0.082, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.420, t_vl: 1.439, t: 110s
+[Epc 170] tt: 0.154, cl_st: 0.089, cl_wk: 0.087, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.388, t_vl: 1.425, t: 110s
+[Epc 171] tt: 0.151, cl_st: 0.087, cl_wk: 0.087, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.424, t_vl: 1.442, t: 110s
+[Epc 172] tt: 0.141, cl_st: 0.076, cl_wk: 0.089, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.415, t_vl: 1.446, t: 110s
+[Epc 173] tt: 0.144, cl_st: 0.079, cl_wk: 0.087, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.390, t_vl: 1.442, t: 110s
+[Epc 174] tt: 0.144, cl_st: 0.087, cl_wk: 0.073, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.322, t_vl: 1.395, t: 110s
+[Epc 175] tt: 0.140, cl_st: 0.080, cl_wk: 0.081, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.388, t_vl: 1.423, t: 110s
+[Epc 176] tt: 0.153, cl_st: 0.083, cl_wk: 0.096, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.393, t_vl: 1.419, t: 107s
+[Epc 177] tt: 0.152, cl_st: 0.089, cl_wk: 0.086, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.395, t_vl: 1.418, t: 106s
+[Epc 178] tt: 0.152, cl_st: 0.086, cl_wk: 0.090, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.400, t_vl: 1.435, t: 106s
+[Epc 179] tt: 0.146, cl_st: 0.082, cl_wk: 0.088, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.423, t_vl: 1.454, t: 106s
+[Epc 180] tt: 0.144, cl_st: 0.079, cl_wk: 0.090, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.351, t_vl: 1.382, t: 108s
+[Epc 181] tt: 0.141, cl_st: 0.077, cl_wk: 0.091, cn_st: 0.004, cn_wk: 0.000, st_vl: 1.398, t_vl: 1.449, t: 109s
+[Epc 182] tt: 0.146, cl_st: 0.082, cl_wk: 0.087, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.359, t_vl: 1.433, t: 109s
+[Epc 183] tt: 0.152, cl_st: 0.081, cl_wk: 0.100, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.325, t_vl: 1.396, t: 110s
+[Epc 184] tt: 0.138, cl_st: 0.082, cl_wk: 0.071, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.407, t_vl: 1.444, t: 110s
+[Epc 185] tt: 0.146, cl_st: 0.086, cl_wk: 0.080, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.439, t_vl: 1.465, t: 111s
+     best teacher model updated at epoch 185!
+[Epc 186] tt: 0.145, cl_st: 0.084, cl_wk: 0.080, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.378, t_vl: 1.452, t: 110s
+[Epc 187] tt: 0.159, cl_st: 0.088, cl_wk: 0.101, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.418, t_vl: 1.429, t: 110s
+[Epc 188] tt: 0.148, cl_st: 0.084, cl_wk: 0.087, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.409, t_vl: 1.454, t: 110s
+[Epc 189] tt: 0.145, cl_st: 0.079, cl_wk: 0.091, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.402, t_vl: 1.434, t: 110s
+[Epc 190] tt: 0.142, cl_st: 0.083, cl_wk: 0.076, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.408, t_vl: 1.436, t: 111s
+[Epc 191] tt: 0.142, cl_st: 0.085, cl_wk: 0.075, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.424, t_vl: 1.437, t: 110s
+[Epc 192] tt: 0.136, cl_st: 0.079, cl_wk: 0.074, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.375, t_vl: 1.423, t: 110s
+[Epc 193] tt: 0.133, cl_st: 0.079, cl_wk: 0.069, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.329, t_vl: 1.425, t: 111s
+[Epc 194] tt: 0.141, cl_st: 0.084, cl_wk: 0.075, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.370, t_vl: 1.425, t: 111s
+[Epc 195] tt: 0.157, cl_st: 0.083, cl_wk: 0.103, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.371, t_vl: 1.433, t: 110s
+[Epc 196] tt: 0.143, cl_st: 0.083, cl_wk: 0.080, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.425, t_vl: 1.445, t: 110s
+[Epc 197] tt: 0.151, cl_st: 0.086, cl_wk: 0.093, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.401, t_vl: 1.430, t: 110s
+[Epc 198] tt: 0.135, cl_st: 0.077, cl_wk: 0.079, cn_st: 0.004, cn_wk: 0.000, st_vl: 1.349, t_vl: 1.441, t: 110s
+[Epc 199] tt: 0.144, cl_st: 0.087, cl_wk: 0.075, cn_st: 0.005, cn_wk: 0.000, st_vl: 1.377, t_vl: 1.442, t: 111s
+[Epc 200] tt: 0.144, cl_st: 0.081, cl_wk: 0.090, cn_st: 0.004, cn_wk: 0.000, st_vl: 1.421, t_vl: 1.436, t: 110s
+   training took 368.19 mins
+        best student/teacher val_metrics: 1.441 / 1.465
+      [student] psds1: 0.4378, psds2: 0.6543 CB-F1: 0.507, IB-f1: 0.741
+      [teacher] psds1: 0.4464, psds2: 0.6590 CB-F1: 0.525, IB-f1: 0.744
+date & time of end is : 2023-06-01 08:34:20
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<DONE!>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
