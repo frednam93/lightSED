@@ -183,8 +183,6 @@ class SELayer(nn.Module):
                                     nn.ReLU(inplace=True),
                                     nn.Conv2d(8, 1, 3, stride=1, padding=1, bias=False),
                                     nn.Sigmoid())
-            self.att_fc1 = nn.Linear(dim, dim)
-            self.att_fc2 = nn.Linear(dim, dim)
 
         else:
             self.fc = nn.Sequential(nn.Linear(dim, hid_dim, bias=False),
@@ -212,11 +210,7 @@ class SELayer(nn.Module):
             y = self.fc(y).view(b, 1, t, f)
 
         elif self.attend_dim == "chan-freq":
-            y = x.transpose(1, 3)                           # y size :       [bs, freqs, frames, chan]
-            y_att = torch.sigmoid(self.att_fc1(y))          # y_att size :   [bs, freqs, frames, chan]
-            attention = F.softmax(self.att_fc2(y), dim=2)  # attention size : [bs, freqs, frames, chan]
-            y = (y_att * attention).sum(2)                 # y size :       [bs, freqs, chan]
-            y = y.view(b, 1, c, f)
+            y = torch.mean(x, dim=2).view(b, 1, c, f)
             y = self.fc(y).view(b, c, 1, f)
 
         return x * y.expand_as(x)
